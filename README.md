@@ -22,10 +22,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Why would you use class component over function components (removing hooks from the question)?
-- [ ] Name three lifecycle methods and their purposes.
-- [ ] What is the purpose of a custom hook?
-- [ ] Why is it important to test our apps?
+- [x] Why would you use class component over function components (removing hooks from the question)?
+1. You would use class components for specificity purposes, particularly data management.
+- [x] Name three lifecycle methods and their purposes.
+2. ComponentWillMount: the purpose is for when the component mounts, it gives the ability to specify certain requirements or actions to happen once when the component activates.
+ComponentDidMount: the purpose is to continously update the component with things that constantly change such as data.
+ComponentWillUnmount: the purpose is for cleanup when the component unmounts, with things such as data or side effects.
+- [x] What is the purpose of a custom hook?
+3. The purpose of custom hooks is to specify what a developer wants the data to specifically be, using methods to manage the data when necessary or desired.
+- [x] Why is it important to test our apps?
+4. It's important to test apps for the purpose of making sure the apps function correctly before they make it to customers/users.
 
 ## Project Set Up
 
